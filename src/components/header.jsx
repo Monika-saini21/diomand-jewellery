@@ -46,9 +46,3 @@ function Header(){
 export default Header;
 
 
-
-// <p className='flex  absolute text-zinc-100  top-70 left-25 font-semibold text-4xl '>You deserve the most</p>
-// <hr className='border-2 text-yellow-600 flex relative w-20 left-115 top-60'></hr>
-// <p className='flex absolute text-zinc-100  top-85 left-25 font-semibold text-7xl '>unique jewellery</p>
-// <p className='flex absolute text-zinc-400 font-serif text-2xl  bottom-38 left-25'> As human beings, we're 
-//    very materialistic and have all<br></br> this stuff - furs and cars and diamonds and money.</p>

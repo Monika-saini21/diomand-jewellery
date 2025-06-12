@@ -19,6 +19,10 @@ cartItem?.map((item)=>{
   totalItem=totalItem+(item.quantity*item?.product.price);
 })
 
+function removeCartItem(data){
+  setCartItem(cartItem.filter(item=> item.product.id!==data.product.id))
+}
+
   return (
   <> <h className="text-4xl ml-140 mt-50 text-yellow-600 border-b-3 h-30 w-33 ">Shopping Cart</h>
     <div className='flex flex-col items-center'>
@@ -32,7 +36,8 @@ cartItem?.map((item)=>{
                   
                    <p className='text-lg'>{item?.product?.title}</p>
                    <button onClick={()=>{
-                  item.quantity=0;
+                  removeCartItem(item)
+                  ||
                   setCartQuantity(0)
                    }} >
                   <img className='w-4 h-4 cursor-pointer relative justify-around left-218 bottom-8' src='https://cdn-icons-png.flaticon.com/128/1828/1828778.png' alt=''></img>

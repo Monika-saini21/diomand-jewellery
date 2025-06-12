@@ -21,10 +21,10 @@ function App() {
    const [showcencel,setShowcencel] = useState(false)
  
    const [ShippingAddress,setShippingAddress]=useState({
-          FirstName:"Monika",
+          FirstName:"",
           LastName:"",
-          Email:"Monika@gmail.com",
-          PhoneNumber:778899,
+          Email:"",
+          PhoneNumber:8360785822,
          Address:"",
          Apartment:"",
           State:"",

@@ -129,8 +129,11 @@ function Header(){
                                          onMouseEnter={() => setIsHovered(data.id)}
                                          onMouseLeave={() => setIsHovered(false)}
                                         /> 
+                                       
                                     </div>
-
+                                    {/* <div >
+                                    <p  >★{data.rate}</p>
+                                    </div> */}
                                     <div className=' flex flex-col items-start bg-white pt-2'>
             
                                          <p className=' text-yellow-600 text-xs font-serif w-58 truncate '> {data.title}</p>

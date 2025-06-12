@@ -97,7 +97,7 @@ function SearchPage(){
             </div>
             </Link>
 
-            <button className=' bg-zinc-900 text-stone-50 text-lg hover:scale-105 duration-500 rounded-lg cursor-pointer 
+            <button className=' bg-zinc-900 text-stone-50 text-lg hover:bg-yellow-600 rounded-lg cursor-pointer 
             w-75 h-11 font-serif ' 
             onClick={()=>{
                 setQuantity(quantity+1)

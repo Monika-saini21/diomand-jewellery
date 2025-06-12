@@ -28,6 +28,7 @@ function Navbar() {
                 <li className='hover:text-yellow-600'> <Link to={"/card/necklace"}>Necklaces</Link></li>
                 <li className='hover:text-yellow-600'><Link to={"/card/bracelet"}>Bracelates</Link></li>
                 <li className='hover:text-yellow-600'><Link to={"/card/earring"}>Earrings</Link></li>
+                  <li className='hover:text-yellow-600'><Link to={"/card/bangles"}>Bangles</Link></li>
             </ul>
         </div>
 
