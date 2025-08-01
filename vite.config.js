@@ -9,4 +9,17 @@ export default defineConfig({
     tailwindcss(),
 
   ],
+   build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('react')) return 'vendor-react'
+            return 'vendor'
+          }
+        }
+      }
+    },
+    chunkSizeWarningLimit: 1000 // optional: to remove warning
+  }
 })
